@@ -1,0 +1,251 @@
+body{
+    font-family: Poppins, sans-serif;
+    background-color: #dfdfdf;
+  
+    
+}
+
+#my-navigation{
+    background: none;
+    border: none;
+    width: 100%;
+    position: absolute;
+    z-index: 10;
+    color: #fff;
+}
+#my-navigation .navbar-toggle{
+    display: block;
+    border: 0;
+    color: #fff;
+   
+}
+#my-navigation .navbar-toggle :hover{
+    background-color: none;
+    cursor: pointer;
+}
+#my-navigation .navbar-header{
+    float: none ;
+    color: #fff;
+}
+#my-navigation .navbar-right{
+    float: left !important;
+    
+}
+
+#my-navigation  .icon-bar-left {
+    float: left;
+}
+#my-navigation  .icon-bar-left .icon-bar{
+    background-color: #fff;
+}
+
+#my-navigation  .icon-right{
+    float: right;
+    position: relative;
+    top: -3px;
+    padding-left: 10px;
+    color: #fff;
+    
+}
+#my-navigation .navbar-brand, #my-navigation ul li a{
+    color: #fff;
+
+}
+#my-navigation .navbar-brand .grey{
+    color: #dbdbdb;
+    font-size: 16px;
+    font-weight: 200;
+}
+
+.my-container{
+    padding: 0;
+    color: #fff;
+}
+.carousel  .item{
+    background-image: url(../img/slide01.jpg);
+    width: 100%;
+    height: 100vh;
+    background-position:center;
+   background-size: cover;
+}
+.carousel .item-2{
+    background-image: url(../img/slide02.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+.carousel .item-3{
+    background-image: url(../img/slide03.jpg);
+
+}
+.carousel .item-5{
+    background-image: url(../img/slide04.jpg);
+
+}
+.carousel .item-5{
+    background-image: url(../img/slide05.jpg);
+
+}
+
+/* banner */
+.banner-text{
+    text-align: center;
+    width: 40%;
+    position: absolute;
+    top: 45%;
+    z-index: 1;
+    left: 30%;
+}
+.banner-text hr{
+    width: 50%;
+}
+.banner-text p{
+    letter-spacing: 3px;
+}
+.banner-text h1{
+    font-size: 65px;
+    font-weight: 100;
+}
+
+
+/* two-section start */
+
+.two-section{
+    padding: 70px 0;
+    text-align: center;
+}
+.two-section .left  img, .two-section .right img{
+    width: 100%;
+    margin-bottom: 35px;
+}
+ 
+.two-section .left,  .two-section .right{
+    background-color: #fff;
+    width: 95%;
+    
+}
+.two-section .text{
+   
+    font-size: 13px;
+    font-weight: 200;
+    letter-spacing: 3px;
+}
+.two-section hr{
+    width: 45%;
+    color: grey;
+    height: 1px;
+
+}
+.two-section h3{
+    font-size: 30px;
+    font-weight: 300;
+   position: relative;
+   top: -15px;
+}
+.two-section p{
+    text-align: left;
+    padding: 10px 40px;
+    color: grey;
+}
+.two-section  button{
+    width: 120px;
+    height: 40px;
+    font-family: Poppins, sans-serif;
+    margin: 30px 0px;
+    border: 0.5px solid grey;
+}
+.two-section  .right{
+    margin-left: 5%;
+}
+
+
+/* full quote start here */
+.full-quote{
+    background-image: url(../img/bg.jpg);
+    background-position: center top;
+    background-size: cover;
+    width: 100%;
+    padding: 50px 0px;
+    color:#fff;
+   
+}
+hr{
+    border-width: 1px;
+    width: 40%;
+}
+.no-margin{
+    margin-left: 0;
+    margin-right: 0;
+}
+
+/* foursection */
+.four-section{
+    padding: 70px 0px;
+}
+.four-section h3{
+    margin-bottom: 70px;
+}
+.four-section img{
+    width: 95%;
+    float: left;
+    margin-bottom: 10%;
+    border:10px solid #fff ;
+}
+.four-section .left{
+    margin-left: 5%;
+}
+/*footer start here */
+.footer{
+    text-align: center;
+    background-color: black;
+    color: grey;
+    padding: 50px 0px;
+}
+.footer span{
+    font-size: 25px;
+    padding: 20px 20px;
+}
+
+@media (max-width:768px){
+    .my-collapse{
+        padding-left: 15px;
+        padding-right: 15px;
+        border-top: 1px solid #fff;
+    }
+    .full-quote p, .four-section p{
+        letter-spacing: 3px;
+        font-size: 10px;
+    }
+    hr{
+        width: 60%;
+    }
+    .full-quote h3, .four-section h3{
+        font-size: 20px;
+
+    }
+}
+@media(max-width:992px){
+    .banner-text p{
+        font-size: 12px;
+        letter-spacing: 2px;
+    }
+    .banner-text h1{
+        font-size: 50px;
+    }
+    .two-section .left, .two-section .right{
+        width: 100%;
+        
+    }
+    .two-section .right{
+        margin-left: 0;
+    }
+    .four-section img{
+        width: 100%;
+    }
+    .four-section .left{
+        margin-left: 0;
+    }
+}
+
+
+
